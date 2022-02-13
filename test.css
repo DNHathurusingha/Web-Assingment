@@ -1,10 +1,12 @@
 
+
 * {
   box-sizing: border-box;
 }
 
 body {
-  font-family: cursive;
+  font-family: 'Itim', cursive;
+font-family: 'Redressed', cursive;
   padding: 10px;
   background: #f1f1f1;
 }
@@ -24,6 +26,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: #333;
+  font-family: Itim , cursive; 
 }
 
 /* Style the topnav links */
@@ -192,3 +195,7 @@ body {
     width: 100%;
   }
 }
+p{
+  font-family: 'Itim', cursive;
+font-family: 'Redressed', cursive;
+
