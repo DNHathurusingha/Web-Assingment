@@ -107,6 +107,38 @@
     height: auto;
 }
 
+.content {
+    width: 50%;
+    float: left;
+    margin-Left: 50px;
+}
+
+.content h2 {
+    font-size: 40px;
+    font-family: Helvetica;
+    color: darkolivegreen;
+    margin: top 0px;
+}
+
+.content p {
+    font-size: 20px;
+    font-family: apple-system;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 768px) {
+    .image-section {
+        width: 100%;
+        float: none;
+    }
+    .content {
+        width: 100%;
+        float: none;
+        margin-Left: 0px;
+    }
+}
+
 
 /* Footer */
 
