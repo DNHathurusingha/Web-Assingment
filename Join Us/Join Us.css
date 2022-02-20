@@ -134,7 +134,7 @@
 }
 
 .read-more-btn {
-    padding: 10px 20px;
+    padding: 8px 20px;
     background-color: darkolivegreen;
     color: rgb(7, 7, 7);
     border: none;
@@ -162,7 +162,7 @@
     text-align: center;
     width: auto;
     justify-content: center;
-    padding-left: 50px;
+    padding-left: 60px;
 }
 
 .volunOpponame p {
@@ -187,6 +187,51 @@
 }
 
 .iconimg img {
+    width: 100px;
+    height: 100px;
+}
+
+.volunHeading1 {
+    font-family: 'Franklin Gothic Medium', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 50px;
+}
+
+.vounteeroppo1 {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    padding-right: 0px;
+    padding-left: 30px;
+}
+
+.volunOpponame1 p {
+    display: flex;
+    background: darkgrey;
+    margin: 60px;
+    margin-bottom: 50px;
+    width: 300px;
+    text-align: center;
+    width: auto;
+    justify-content: flex-end;
+    padding: 20px;
+    line-height: 20px;
+    color: black;
+    position: relative;
+}
+
+.iconimg1 {
+    width: 100 px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.iconimg1 img {
     width: 100px;
     height: 100px;
 }
