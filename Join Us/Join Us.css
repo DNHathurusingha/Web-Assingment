@@ -75,7 +75,7 @@
 
 .image {
     width: 100%;
-    padding: 20px 0px;
+    padding: 10px 0px;
 }
 
 .heading h1 {
@@ -145,6 +145,39 @@
 
 .text.show-more .moreText {
     display: inline;
+}
+
+.volunHeading {
+    font-family: 'Franklin Gothic Medium', cursive;
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+}
+
+.vounteeroppo {
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+    padding-left: 50px;
+}
+
+.volunOpponame p {
+    display: flex;
+    background: darkgrey;
+    margin: 60px;
+    margin-bottom: 50px;
+    width: 300px;
+    text-align: center;
+    width: auto;
+    justify-content: flex-end;
+    padding: 20px;
+    line-height: 20px;
+    color: black;
+    position: relative;
 }
 
 @media screen and (max-width: 768px) {
