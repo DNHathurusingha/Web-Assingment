@@ -105,12 +105,13 @@
 .image-section img {
     width: 100%;
     height: auto;
+    margin-left: 25px;
 }
 
 .content {
     width: 50%;
     float: left;
-    margin-Left: 50px;
+    margin-Left: 110px;
 }
 
 .content h2 {
@@ -125,6 +126,25 @@
     font-family: apple-system;
     margin-top: 10px;
     line-height: 1.5;
+    text-align: justify;
+}
+
+.moreText {
+    display: none;
+}
+
+.read-more-btn {
+    padding: 10px 20px;
+    background-color: darkolivegreen;
+    color: rgb(7, 7, 7);
+    border: none;
+    outline: #2A2A2A;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.text.show-more .moreText {
+    display: inline;
 }
 
 @media screen and (max-width: 768px) {
