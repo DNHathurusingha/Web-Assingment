@@ -180,6 +180,17 @@
     position: relative;
 }
 
+.iconimg {
+    width: 100 px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.iconimg img {
+    width: 100px;
+    height: 100px;
+}
+
 @media screen and (max-width: 768px) {
     .image-section {
         width: 100%;
