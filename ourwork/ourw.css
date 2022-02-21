@@ -43,30 +43,3 @@ html,body{
 	font-weight: normal;
 }
 
-.rectangle{
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	background: transparent;
-	border-radius: 1px solid white;
-	transform: translate(-50%,-50%);
-	position: absolute;
-}
-
-.layer span{
-	text-align: center;
-	width: 80px;
-	height: 2px;
-	position: absolute;
-	margin-left: -40px;
-	background: white;
-}
-
-.text_1 h1{
-	font: 80px;
-	letter-spacing: 4px;
-}
-.fcc-btn {
-  background-color: #199319;
-  color: white;
-}
