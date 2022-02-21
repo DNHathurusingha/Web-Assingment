@@ -41,7 +41,7 @@ font-family: 'Redressed', cursive;
 
 /* Change color on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #FFFFFF;
   color: black;
 }
 
@@ -96,8 +96,8 @@ font-family: 'Redressed', cursive;
 }
 .footer-clean {
   padding:50px 0;
-  background-color:#757675;
-  color:#4b4c4d;
+  background-color:#2A2A2A;
+  color:#FFFFFF;
 }
 
 .footer-clean h3 {
@@ -180,8 +180,7 @@ font-family: 'Redressed', cursive;
   opacity:0.6;
 }
 
-/* Responsive layout - when the screen is less than 800px wide, make the
- two columns stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
@@ -189,8 +188,7 @@ font-family: 'Redressed', cursive;
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the 
-navigation links stack on top of each other instead of next to each other */
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
 @media screen and (max-width: 400px) {
   .topnav a {
     float: none;
@@ -200,5 +198,4 @@ navigation links stack on top of each other instead of next to each other */
 p{
   font-family: 'Itim', cursive;
 font-family: 'Redressed', cursive;
-}
 
