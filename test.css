@@ -22,12 +22,6 @@ font-family: 'Redressed', cursive;
   font-size: 50px;
 }
 
-/* Style the top navigation bar */
-.topnav {
-  overflow: hidden;
-  background-color: #1D570E;
-  font-family: Itim , cursive; 
-}
 
 /* Style the topnav links */
 .topnav a {
@@ -45,55 +39,36 @@ font-family: 'Redressed', cursive;
   color: black;
 }
 
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {   
-  float: left;
-  width: 75%;
-}
 
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
 
-.rightcolumnheader {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
-}
+/*.card {*/
+  /* Add shadows to create the "card" effect */
+/*  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}*/
 
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
+/* On mouse-over, add a deeper shadow */
+/*.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}*/
 
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
+/* Add some padding inside the card container */
+/*.container {
+  padding: 2px 16px;
 }
+*/
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
+
+
+
 
 /* Footer */
-.footer {
+/*.footer {
   padding: 20px;
   text-align: center;
   background: #ddd;
   margin-top: 20px;
-}
+}*/
 .footer-clean {
   padding:50px 0;
   background-color:#757675;
