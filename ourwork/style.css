@@ -1,0 +1,106 @@
+
+@import 'nav.css'; 
+
+.hero-section{
+    width:100%;
+    height: 500px;
+    background-image: url('../img/markus-spiske-vrbZVyX2k4I-unsplash.jpg');
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.our{
+    margin-left: 200px;
+    margin-top: 50px;
+    width: 900px;
+    height: 100px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+
+.fcc-btn {
+  background-color: black;
+  color: white;
+}
+
+
+.about{
+    margin-left: 900px;
+    margin-top: 350px;
+  width: 500px;
+  height: 300px;
+  text-align: justify;
+}
+
+.unorder1{
+    margin-left: 200px;
+    margin-top: 200px;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+}
+
+.unorder2{
+    margin-left:800px;
+    margin-top: 220px;
+    width: 400px;
+    height: 400px;
+}
+.slider{
+    margin-top: 200px ;
+    margin-left: 60px;
+    width: 50%;
+    position: absolute;
+    carousel-transition-duration:       .3s;
+    font-size: 17px;
+  
+
+}
+
+@media only screen and (max-width: 700px){
+    .our{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 100px;
+        width: 80%;
+        height: 80%;
+        text-align: justify;
+    }
+    
+    .about{
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-top: 450px;
+      width: 80%;
+      height: 80%;
+      text-align: justify;
+    }
+    
+    .unorder1{
+        margin-left:20px;
+        margin-top: 20px;
+        width: 80%;
+        height: 80%;
+        position: absolute;
+    }
+    
+    .unorder2{
+        margin-left:20px;
+        margin-right: 20px;
+        margin-top: 300px;
+        width: 100%;
+        height: 100%;
+    }
+    .slider{
+        margin-top: 100px ;
+        margin-left: 20px;
+        margin-right: 20px;
+        width: 80%;
+        position: absolute;
+        carousel-transition-duration:       .3s;
+    }
+}
