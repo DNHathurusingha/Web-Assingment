@@ -1,3 +1,5 @@
+/*header*/
+
 const createNav = () => {
     let nav = document.querySelector('.navbar');
     nav.innerHTML = `
@@ -22,6 +24,8 @@ const createNav = () => {
     `;
 }
 
+/*See more */
+
 createNav();
 
 const readMoreBtn = document.querySelector('.read-more-btn');
@@ -30,6 +34,8 @@ const text = document.querySelector('.text');
 readMoreBtn.addEventListener('click', (e) => {
     text.classList.toggle('show-more');
 })
+
+/*Validation*/
 
 function validation() {
     var Full_name = document.getElementById("Full name").value;
