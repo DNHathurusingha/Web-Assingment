@@ -15,9 +15,9 @@ const createNav = () => {
 <ul class="links-container">
    <li class="lint-item"><a href="#" class="link">Home</a></li>
    <li class="lint-item"><a href="ourwork/indexx.html" class="link">Ourwork</a></li>
-   <li class="lint-item"><a href="#" class="link">Login</a></li>
+   <li class="lint-item"><a href="Login form/log.html" class="link">Login</a></li>
    <li class="lint-item"><a href="index.html" class="link">Store</a></li>
-   <li class="lint-item"><a href="Web-Assingment/Join Us/Join Us.html" class="link">join Us</a></li>
+   <li class="lint-item"><a href="Join Us/Join Us.html" class="link">join Us</a></li>
 </ul>
     `;
 }
