@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+
+
+@import 'nav.css';
+
+.hero-section{
+    width:100%;
+    
+    background-image: url('../img/markus-spiske-vrbZVyX2k4I-unsplash.jpg');
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+*{
+	padding: 0px;
+	margin-top: 0px;
+}
+
+
+
+.text_1{
+
+	width: 80%;
+	
+
+}
+
+.img9{
+	background: url(img9.jpg); no repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 700px;
+	text-align: center;
+	
+
+}
+.layer{
+	width: 100%;
+	
+
+	text-align: center;
+}
+
+.text_1{
+	margin-top: 50px;
+	color: white;
+	text-align: center;
+	transform: translate(-50%,-50%);
+	top: 53%;
+	left: 50%;
+	font-size: 9px;
+	font-family: Playfair Display;
+	font-weight: initial;
+    text-decoration: initial;
+    position: absolute;
+}
+
+/*.rectangle{
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: transparent;
+	border-radius: 1px solid white;
+	transform: translate(-50%,-50%);
+	
+}*/
+
+.layer span{
+	text-align: center;
+	width: 80px;
+	height: 2px;
+	position: absolute;
+	margin-left: -40px;
+	background: white;
+}
+
+.text_1 h1{
+	font: 80px;
+	letter-spacing: 4px;
+}
+.fcc-btn {
+  background-color: #203E1B.0;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
