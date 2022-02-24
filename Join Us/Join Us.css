@@ -304,7 +304,7 @@ h1 {
     font-family: 'Lobster', cursive;
     margin: 0;
     text-align: center;
-    color: white;
+    color: whitesmoke;
     font-size: xx-large;
     margin-bottom: 50PX;
 }
@@ -373,7 +373,7 @@ input[type="submit"]:hover {
 }
 
 #success {
-    color: #28A745;
+    color: green;
 }
 
 
