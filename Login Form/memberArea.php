@@ -26,7 +26,7 @@
              <div class="content">
               <!--    <img src="img/Thuryliya-logo.png" class="logo" alt=""> -->
                  <br>
-                 <p class="sub-heading">Welcome to Thuruliya Members Area
+                 <p class="sub-heading">Thank you for login with Thuruliya
 
                     
                     <br>
