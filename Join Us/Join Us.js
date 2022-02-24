@@ -30,3 +30,66 @@ const text = document.querySelector('.text');
 readMoreBtn.addEventListener('click', (e) => {
     text.classList.toggle('show-more');
 })
+
+function validation() {
+    var Full_name = document.getElementById("Full name").value;
+    var ID_Number = document.getElementById("ID Number").value;
+    var Gender = document.getElementById("Gender").value;
+    var Contact_Number = document.getElementById("Contact Number").value;
+    var Email = document.getElementById("Email").value;
+    var Current_address = document.getElementById("Current Address").value;
+    var Why_would_you_think_to_do_volunteer = document.getElementById("Why would you think to do volunteer").value;
+    var error_message = document.getElementById("error_message");
+
+    error_message.style.padding = "10px";
+
+    var text;
+    if (Full_name.length < 5) {
+        text = "Please Enter Full Name";
+        error_message.innerHTML = text;
+        return false;
+    }
+
+    if (ID_Number.length < 12) {
+        text = "Please Enter valid ID Number";
+        error_message.innerHTML = text;
+        return false;
+    }
+
+    if (Gender.length < 6) {
+        text = "Please specify your Gender (Male/Female)";
+        error_message.innerHTML = text;
+        return false;
+    }
+
+    if (isNaN(Contact_Number) || Contact_Number.length != 10) {
+        text = "Please Enter valid Contact number";
+        error_message.innerHTML = text;
+        return false;
+    }
+
+    if (Email.indexOf("@") == -1 || Email.length < 6) {
+        text = "Please Enter valid Email Address";
+        error_message.innerHTML = text;
+        return false;
+    }
+
+    if (Current_address.length < 15) {
+        text = "Please specify Address number/street/city";
+        error_message.innerHTML = text;
+        return false;
+    }
+
+
+    if (Why_would_you_think_to_do_volunteer < 10) {
+        text = "Atleast add two more sentences";
+        error_message.innerHTML = text;
+        return false;
+    }
+
+
+    alert("Form Submitted Sucessfully!")
+    return true;
+
+
+}
