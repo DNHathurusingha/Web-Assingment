@@ -16,8 +16,8 @@ const createNav = () => {
    <li class="lint-item"><a href="#" class="link">Home</a></li>
    <li class="lint-item"><a href="#" class="link">Ourwork</a></li>
    <li class="lint-item"><a href="#" class="link">Login</a></li>
-   <li class="lint-item"><a href="#" class="link">Store</a></li>
-   <li class="lint-item"><a href="#" class="link">join Us</a></li>
+   <li class="lint-item"><a href="https://github.com/DNHathurusingha/Web-Assingment/blob/main/public/index.html" class="link">Store</a></li>
+   <li class="lint-item"><a href="https://github.com/DNHathurusingha/Web-Assingment/blob/main/Join%20Us/Join%20Us.html" class="link">join Us</a></li>
 </ul>
     `;
 }
