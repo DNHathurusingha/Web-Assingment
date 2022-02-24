@@ -26,7 +26,13 @@
              <div class="content">
               <!--    <img src="img/Thuryliya-logo.png" class="logo" alt=""> -->
                  <br>
+                 <br>
+                 <br>
                  <p class="sub-heading">Thank you for login with Thuruliya
+                    <br>
+                    <h4>
+                        <p style="color: white;"> Thank you for sign in and welcome to our web page. Please visit the store and purchase the product to assist us in planting a tree for the environment</p>
+                    </h4>
 
                     
                     <br>
