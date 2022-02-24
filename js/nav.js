@@ -13,7 +13,7 @@ const createNav = () => {
       </div>              
 </div>
 <ul class="links-container">
-   <li class="lint-item"><a href="test.html" class="link">Home</a></li>
+   <li class="lint-item"><a href="index.html" class="link">Home</a></li>
    <li class="lint-item"><a href="ourwork/ourwork web/ourw.html" class="link">Ourwork</a></li>
    <li class="lint-item"><a href="Login form/log.html" class="link">Login</a></li>
    <li class="lint-item"><a href="public/index.html" class="link">Store</a></li>
