@@ -80,7 +80,7 @@ function validation() {
         return false;
     }
 
-    if (Current_address.length > 10) {
+    if (Current_address.length < 15) {
         text = "Please specify Address number/street/city";
         error_message.innerHTML = text;
         return false;
